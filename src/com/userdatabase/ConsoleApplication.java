@@ -7,8 +7,6 @@ import java.util.Scanner;
 
 public class ConsoleApplication {
 
-    // Initial Variables
-
     boolean exitApplication = false;
     UserAccountService userAccountService = new UserAccountService();
     DisplayService displayService = new DisplayService();

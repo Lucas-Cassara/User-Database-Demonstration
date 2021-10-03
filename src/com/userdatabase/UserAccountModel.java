@@ -4,8 +4,6 @@ package com.userdatabase;
 
 public class UserAccountModel {
 
-    // Variables to store desired information about each user.
-
     private String firstName;
     private String lastName;
     private String department;
@@ -21,8 +19,6 @@ public class UserAccountModel {
         this.emailPassword = "";
         this.userId = "";
     }
-
-    // Getters and setters for each variable within the User Account object.
 
     public String getFirstName() {
         return firstName;
