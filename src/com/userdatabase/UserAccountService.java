@@ -24,7 +24,8 @@ public class UserAccountService {
     }
 
     private String generateEmailAddress(UserAccountModel userAccountModel) {
-        return userAccountModel.getFirstName() + "." + userAccountModel.getLastName() + "@" + "aa.com";
+        String defaultDomain = "corporate.com";
+        return userAccountModel.getFirstName() + "." + userAccountModel.getLastName() + "@" + defaultDomain;
     }
 
     private String generatePassword() {
